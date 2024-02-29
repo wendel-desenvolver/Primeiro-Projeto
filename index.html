@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="bg" lang="pt-br" ;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet"> 
+    <title>Sitema 0.2</title>
+</head>
+<body class="kode-mono">
+  <header>
+    
+      <img class="img" src="img/escola4.jpg" alt="Logo da escola" width="75" height="75">
+      <div class="Logo">
+      <h1> Seja Bem-vinda Monitora.</h1>
+      
+    </div>
+  </header>
+    <form class="container" method="post">
+      <fieldset>
+        <label><h2> Cadastro do Aluno.</h2></label>
+        <section class="form1">
+          <label> Coloque o nome do aluno:</label>
+          <input type="text" name="nome" placeholder="Nome"/>
+          </section>
+          <section class="form1">
+          <label> Periodo do aluno:</label>
+          <input type="radio" name="periodo" value="manha" /> Manhã
+          <input type="radio" name="periodo" value="tarde" /> Tarde
+          <input type="radio" name="periodo" value="noite" /> Noite
+          </section>
+          <section class="form1">
+          <label> Escolas: </label>
+          <select name="Escola">
+            <option value="Escola1">Escola 1</option>
+            <option value="Escola2">Escola 2</option>
+            <option value="Escola3">Escola 3</option>
+            <option value="Escola4">Escola 4</option>
+            <option value="Escola5">Escola 5</option>
+          </select>
+          </section>
+          <br>
+          <div class="ui-btn">
+          <button formaction="http://localhost:3000/usuarios"class="animated-button">
+            <span>Cadastrar</span>
+            <span></span>
+          </button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+</body>
+<footer>
+  <div class="rodape">
+    <p>Desenvolvedor: Wendel</p>
+  </div>
+</footer>
+</html>

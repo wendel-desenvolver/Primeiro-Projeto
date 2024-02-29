@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+.bg {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/escola6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.kode-mono::before{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 555;
+    font-style: normal;
+     
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+
+
+    
+}
+.img {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    
+}
+fieldset {
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin: 10px 0;
+    width: auto;
+    padding: 10px;
+}
+
+.container {
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+}
+.form1 {
+    background-color: #F59F10; 
+    font-size: 25px;
+    padding: 0 10px 10px;
+    margin: 10px 0 10px;
+    border: 1px solid #000000;
+    border-radius: 13px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    gap: 6px;
+    transition: all 0.3s cubic-bezier(0,15,0,83,0,66,1);
+}
+.form1:focus {
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px 2px #242424;
+    background-color: transparent;
+  }
+
+.ui-btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.animated-button {
+    position: relative;
+    display: inline-flex;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color: hwb(0 99% 1% / 0.87);
+    box-shadow: 0 0 0 2px hsl(246, 82%, 52%);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+  
+.animated-button span:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #2196F3;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+}
+  
+.animated-button span:first-child {
+    position: relative;
+    z-index: 1;
+}
+  
+.animated-button:hover {
+    box-shadow: 0 0 0 5px #2195f360;
+    color: #ffffff;
+}
+  
+  .animated-button:active {
+    scale: 0.95;
+}
+  
+.animated-button:hover span:last-child {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+  h1, h2 {
+    font-size: 40px;
+    background-color: #fbff00;
+    border-radius: 10px;
+    padding: 1px;
+   
+}
+  
+  
+      
