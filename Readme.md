@@ -1,4 +1,4 @@
-# Sistema de Monitoramento de Van Escolar
+# Sistema de Monitoramento de Alunos da Van Escolar.
 
 ## Descrição do Projeto
 
